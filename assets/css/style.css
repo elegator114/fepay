@@ -151,7 +151,8 @@ nav.navbar.bootsnav {
     display: flex;
     align-items: center;
     color:#ffffff;
-    text-transform:capitalize;}
+    text-transform:capitalize;
+}
 @media (max-width: 767px) {
     .navbar-header a.navbar-brand {
         display: flex;
