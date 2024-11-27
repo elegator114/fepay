@@ -149,9 +149,13 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand span{display: inline-block;color:#115a37;text-transform:capitalize;}
 @media (max-width: 767px) {
     .navbar-header a.navbar-brand {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 15px;
         padding: 15px 0;  /* 상하 패딩 줄임 */
         margin-top: 0;    /* 상단 마진 제거 */
-        line-height: 1;   /* 줄 높이 조정 */
+
         height: auto;     /* 높이 자동 조정 */
     }
 }
