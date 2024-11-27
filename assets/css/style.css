@@ -137,29 +137,27 @@ nav.navbar.bootsnav {
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
-    display: flex;
-    align-items: center;
+
     color: #fff;
     font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Noto Sans KR', sans-serif;;
     font-weight: 700;
-    padding: 45px 0px;
+    padding: 60px 0px;
     text-transform:uppercase;
 }
 .navbar-header a.navbar-brand span{    
-    display: flex;
-    align-items: center;
+
+
     color:#ffffff;
     text-transform:capitalize;
 }
 @media (max-width: 767px) {
-    .navbar-header a.navbar-brand {
+    .navbar-header  {
         display: flex;
         align-items: center;
         height: 100%;
-        padding: 15px;
-        padding: 15px 0;  /* 상하 패딩 줄임 */
+
         margin-top: 0;    /* 상단 마진 제거 */
 
         height: auto;     /* 높이 자동 조정 */
@@ -168,26 +166,24 @@ nav.navbar.bootsnav {
 
 @media (max-width: 767px) {
     nav.navbar.bootsnav {
-        background-color: #000 !important;  /* 검은색 배경 강제 적용 */
+        background-color: #0b432c !important;  /* 검은색 배경 강제 적용 */
     }
     
     /* 햄버거 메뉴 展開 시의 배경색도 설정 */
     nav.navbar.bootsnav .navbar-collapse.collapse.in {
-        background-color: #000;
+        background-color: #0b432c;
     }
 }
 @media (max-width: 767px) {
     /* 햄버거 버튼 위치 조정 */
     nav.navbar.bootsnav .navbar-toggle {
-        margin-top: 20px;        /* 상단 여백 증가 */
-        margin-bottom: 15px;     /* 하단 여백 */
-        padding: 5px 10px;       /* 버튼 내부 여백 */
+        position: right;
         color:#fff
     }
 }
 @media (max-width: 767px) {
     nav.navbar.bootsnav .navbar-collapse.collapse.in ul.nav > li > a {
-        padding: 12px 25px;  /* 상하 15px, 좌우 25px 여백 */
+        padding: 12px 25px;  상하 15px, 좌우 25px 여백
     }
 }
 /* PC 화면에서의 기본 크기 */
@@ -249,7 +245,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 
 /*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
-    position: relative;
+    position: right;
     background-color: transparent;
 
     padding: 10px;
