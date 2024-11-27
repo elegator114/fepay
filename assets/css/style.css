@@ -176,7 +176,7 @@ nav.navbar.bootsnav {
         margin-top: 20px;        /* 상단 여백 증가 */
         margin-bottom: 15px;     /* 하단 여백 */
         padding: 5px 10px;       /* 버튼 내부 여백 */
-        background-color: #fff !important;
+        color:#fff
     }
 }
 @media (max-width: 767px) {
@@ -245,11 +245,14 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #115a37;
+
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #115a37;}
+nav.navbar.bootsnav .navbar-toggle i{
+    color: #ffffff;
+    font-size: 30px;
+}
 /*.navbar-toggle */
 
 /*-------------------------------------
