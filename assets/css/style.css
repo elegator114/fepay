@@ -186,10 +186,11 @@ nav.navbar.bootsnav {
         padding: 12px 25px;  상하 15px, 좌우 25px 여백
     }
 }
+
+/* 햄버거바만 2px 내리자 */
 @media (max-width: 767px) {
     nav.navbar.bootsnav .navbar-toggle {
-        position: relative;
-        top: 2px;  /* 버튼을 2px 아래로 이동 */
+        margin-top: 2px;  /* 상단 여백을 2px 추가 */
     }
 }
 /* PC 화면에서의 기본 크기 */
