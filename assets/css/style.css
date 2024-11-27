@@ -186,6 +186,12 @@ nav.navbar.bootsnav {
         padding: 12px 25px;  상하 15px, 좌우 25px 여백
     }
 }
+@media (max-width: 767px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        position: relative;
+        top: 2px;  /* 버튼을 2px 아래로 이동 */
+    }
+}
 /* PC 화면에서의 기본 크기 */
 .template-image {
     width: 600px;
