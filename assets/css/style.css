@@ -137,7 +137,8 @@ nav.navbar.bootsnav {
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     color: #fff;
     font-size: 24px;
     letter-spacing: 3px;
