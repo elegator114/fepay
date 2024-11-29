@@ -93,7 +93,7 @@
 						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 							<i class="fa fa-navicon"></i> 
 				                </button>
-				                <a class="navbar-brand" href="#home"><span>(주)에프이전자결제</span></a>
+				                <a class="navbar-brand " href="#home"><span>(주)에프이전자결제</span></a>
 
 
 				            </div><!--/.navbar-header-->
@@ -309,25 +309,32 @@
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.js"></script>
         
         <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		
 		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
 		
 		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
+	<script src="assets/js/bootsnav.js"></script>
 
 		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
         <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
+      <script src="assets/js/custom.js"></script>
+
+	<script>
+		$('a[href^="#"]').on('click', function(e) {
+			e.preventDefault();
+			var target = $(this).attr('href');
+			$('html, body').animate({ scrollTop: $(target).offset().top }, 1000);
+		});
+	</script>
     </body>
 	
 </html>
